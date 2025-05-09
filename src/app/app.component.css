@@ -1,0 +1,72 @@
+/* component.css */
+.contenitore {
+  max-width: 600px;
+  margin: 60px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.input-topic {
+  width: 60%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-topic:focus {
+  border-color: #007bff;
+}
+
+.btn-generico {
+  padding: 12px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-generico:hover {
+  background-color: #0056b3;
+}
+
+.box-domanda {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #333;
+}
+
+.btn-risposta {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: 2px solid #007bff;
+  color: #007bff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-risposta:hover {
+  background-color: #007bff;
+  color: white;
+}
